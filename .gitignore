@@ -1,3 +1,25 @@
+# Build directories
+/build/
+/bin/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files (VS Code, Xcode, etc.)
+*.xcodeproj
+*.xcworkspace
+*.idea/
+
+# Optional: binaries
+*.exe
+*.out
+*.app
+
 # Prerequisites
 *.d
 
@@ -39,3 +61,5 @@
 
 # debug information files
 *.dwo
+
+
