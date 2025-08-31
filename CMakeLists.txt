@@ -8,4 +8,5 @@ find_package(SDL2 REQUIRED)
 include_directories(${SDL2_INCLUDE_DIRS})
 
 add_executable(Snake main.cpp)
-target_link_libraries(Snake ${SDL2_LIBRARIES})
+
+target_link_libraries(Snake ${SDL2_LIBRARIES} "-framework OpenGL -Wdeprecated-declarations")
